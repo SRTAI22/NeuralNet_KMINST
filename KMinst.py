@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
 
-# I was forced to run on CPU but if you have GPU support add by doing: device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# I was forced to run on CPU but if you have GPU support add it by replacing the current one with this: device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('cpu')
 
 #hyper-parameters
