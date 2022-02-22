@@ -12,12 +12,12 @@ from sklearn.model_selection import train_test_split
 device = torch.device('cpu')
 
 #hyper-parameters
-num_epoch = 35
-learning_rate = 0.002
+num_epoch = 65
+learning_rate = 0.003
 input_size = 784
 num_classes = 10
-hidden_size = 520
-batch_size = 200
+hidden_size = 512
+batch_size = 512
 
 #downloading and loading data 
 train_dataset = torchvision.datasets.KMNIST(root='./dataKM', train=True, download=True, transform=transforms.ToTensor())
